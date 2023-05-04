@@ -12,7 +12,7 @@ public class Main {
             Server server = new Server();
             User user = new User();
             MainGameFrame mainFrame = new MainGameFrame(800, 1000, server, user);
-            mainFrame.setVisible(true);
+            mainFrame.setVisible(true);/////////
         });
 
         URL musicURL = Main.class.getResource("/music/bgMusic.wav");
